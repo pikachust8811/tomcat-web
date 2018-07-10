@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  tomcat:
+    restart: always
+version: '2'
+    container_name: tomcat
+    image: pikachust8811/tomcat-web:1.0.0
+    tty: true
+    ports:
+      - "2288:8080"

@@ -1,0 +1,6 @@
+version: '3.2'
+
+services:
+  test-py:
+    image: pikachust8811/tomcat-web:1.0.1
+    tty: true
